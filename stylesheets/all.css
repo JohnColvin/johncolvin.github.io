@@ -432,61 +432,61 @@ table {
  *
  */
 /* line 7, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+html {
+  background: url("../images/funky.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 14, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
 body {
-  font-family: "Monofett", cursive;
+  font-family: "Press Start 2P", cursive;
   text-align: center;
   color: black;
-  font-size: 18px; }
+  font-size: 12px; }
   @media all and (max-width: 600px) {
-    /* line 7, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+    /* line 14, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
     body {
-      font-size: 10px; } }
-  /* line 16, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
-  body:after {
-    background-image: url("../images/funky.jpg");
-    background-repeat: repeat;
-    content: "";
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; }
-  /* line 28, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+      font-size: 6px; } }
+  /* line 23, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
   body img {
     border-radius: 600px;
     box-shadow: 0 0 100px white;
     width: 40%; }
-  /* line 33, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+  /* line 28, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
   body h1 {
     font-size: 3em;
-    letter-spacing: 10px; }
-  /* line 37, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+    letter-spacing: 10px;
+    line-height: 3em; }
+  /* line 33, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
   body h3 {
     font-size: 2em;
-    letter-spacing: 8px; }
-  /* line 41, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+    letter-spacing: 8px;
+    line-height: 2.8em; }
+  /* line 38, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
   body footer {
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 4px;
-    margin-top: 36px; }
-  /* line 46, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+    margin-top: 36px;
+    line-height: 2em; }
+  /* line 44, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
   body h1, body h3, body footer {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7); }
-  /* line 50, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+  /* line 48, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
   body i {
-    font-size: 7em; }
-    /* line 53, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+    font-size: 7em;
+    text-shadow: 0 0 0.5em white; }
+    /* line 52, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
     body i.icon-github-circled-1 {
       color: pink; }
-      /* line 56, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+      /* line 55, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
       body i.icon-github-circled-1:hover {
         color: orange; }
-    /* line 59, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+    /* line 58, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
     body i.icon-twitter-circled {
       color: blue; }
-      /* line 62, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+      /* line 61, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
       body i.icon-twitter-circled:hover {
         color: green; }
