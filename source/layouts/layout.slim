@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+
+    /! Always force latest IE rendering engine or request Chrome Frame
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+
+    /! Do the phone viewport thing
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+
+    /! Use title if it's in the page YAML frontmatter
+    title 2 John 4 TV!
+
+    == stylesheet_link_tag "all"
+    link href='http://fonts.googleapis.com/css?family=Monofett' rel='stylesheet' type='text/css'
+
+  body
+    #main
+      header
+        h1.title 2 John 4 TV
+
+      == yield
+
+      footer
+        | You can't even put this much John on TV
+
+  == javascript_include_tag  "all"
