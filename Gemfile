@@ -4,6 +4,6 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.1.1"
 
-gem 'middleman-gh-pages'
+gem 'middleman-gh-pages', github: 'tarebyte/middleman-gh-pages'
 
 gem "slim"
