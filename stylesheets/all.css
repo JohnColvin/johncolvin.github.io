@@ -376,11 +376,11 @@ table {
 }
 @font-face {
   font-family: 'fontello';
-  src: url('../fonts/fontello.eot?38631887');
-  src: url('../fonts/fontello.eot?38631887#iefix') format('embedded-opentype'),
-       url('../fonts/fontello.woff?38631887') format('woff'),
-       url('../fonts/fontello.ttf?38631887') format('truetype'),
-       url('../fonts/fontello.svg?38631887#fontello') format('svg');
+  src: url('../font/fontello.eot?91485246');
+  src: url('../font/fontello.eot?91485246#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?91485246') format('woff'),
+       url('../font/fontello.ttf?91485246') format('truetype'),
+       url('../font/fontello.svg?91485246#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -390,7 +390,7 @@ table {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../fonts/fontello.svg?38631887#fontello') format('svg');
+    src: url('../font/fontello.svg?91485246#fontello') format('svg');
   }
 }
 */
@@ -426,6 +426,7 @@ table {
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
+.icon-mail-circled:before { content: '\e801'; } /* '' */
 .icon-twitter-circled:before { content: '\e800'; } /* '' */
 .icon-github-circled-1:before { content: '\e802'; } /* '' */
 /*
@@ -490,3 +491,9 @@ body {
       /* line 61, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
       body i.icon-twitter-circled:hover {
         color: green; }
+    /* line 64, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+    body i.icon-mail-circled {
+      color: yellow; }
+      /* line 67, /Users/johncolvin/development/johncolvin.github.io/source/stylesheets/all.css.sass */
+      body i.icon-mail-circled:hover {
+        color: red; }
